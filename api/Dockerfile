@@ -1,4 +1,4 @@
-FROM python:3.9.1
+FROM python:3.10.0b2
 RUN pip install flask
 RUN pip install Flask-Cors
 COPY . .
